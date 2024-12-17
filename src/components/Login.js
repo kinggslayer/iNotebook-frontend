@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom"
 
 const Login = () => {
     const [credentials, setCredentials] = useState({email:"", password:""})
-    const host="http://localhost:5000"
+    const host="https://inotebook-backend-b17k.onrender.com"
     let navigate =useNavigate()
     const submit= async (e)=> {
         e.preventDefault();
