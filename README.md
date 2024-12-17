@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# iNotebook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+iNotebook is a full-stack web application built with the MERN stack (MongoDB, Express.js, React, Node.js). It allows users to securely register, log in, and create, edit, and delete notes. The application provides features such as note management with titles, descriptions, and tags.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Users can sign up and log in to their accounts.
+- **CRUD Operations on Notes**: Users can create, view, update, and delete notes.
+- **Tags**: Users can categorize notes with tags.
+- **Responsive Design**: The app is responsive and works across different screen sizes.
+- **State Management**: The app uses React Context API to manage and share state across components.
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Frontend**: React, React Router, Material UI, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Tokens)
+- **Styling**: CSS and Material UI for UI components
+- **Development Tools**: Nodemon, Axios
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation and Setup
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Node.js** (version >= 14)
+- **npm** (Node Package Manager)
+- **MongoDB** (local or cloud service like MongoDB Atlas)
 
-### `npm run build`
+### Step 1: Clone the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone <repository-url>
+```
+![Screenshot (63)](https://github.com/user-attachments/assets/5e596022-d602-41ca-9b9d-75bd28ca528d)
+![Screenshot (65)](https://github.com/user-attachments/assets/56186c89-1bfd-45af-89b8-7a492dd81953)
+![Screenshot (66)](https://github.com/user-attachments/assets/3611c7ef-7546-4483-bd7e-50e2abde3fd4)
+![Screenshot (67)](https://github.com/user-attachments/assets/ff1f1f3d-5add-4875-97ad-4ab3313e81cb)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
